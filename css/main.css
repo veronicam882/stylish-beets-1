@@ -1,0 +1,13 @@
+/*
+font-family: 'PT Sans', sans-serif;
+font-family: 'PT Serif', serif;
+*/
+
+html {
+  box-sizing: border-box;
+  font-family: "PT Sans", sans-serif;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
