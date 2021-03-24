@@ -52,3 +52,27 @@ nav ol li a:hover {
   text-decoration: underline;
   color: #3f1622;
 }
+
+figcaption {
+  font-style: italic;
+  text-align: center;
+  font-size: 0.8rem;
+}
+
+main blockquote {
+  font-style: italic;
+  font-size: 1.5rem;
+  font-weight: normal;
+}
+
+main blockquote strong {
+  font-weight: normal;
+}
+
+main blockquote cite {
+  font-size: 0.8rem;
+}
+
+.bolden {
+  font-weight: bold;
+}
