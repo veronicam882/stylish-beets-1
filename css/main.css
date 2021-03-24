@@ -29,7 +29,7 @@ footer a {
 }
 
 footer {
-    font-size: 1.125rem;
+    font-size: 0.8rem;
 }
 
 footer a:hover {
@@ -37,6 +37,9 @@ footer a:hover {
   text-decoration: underline;
 }
 
+body {
+  line-height: 1.5;
+}
 nav ol li {
   font-family: "PT Sans", sans-serif;
   font-size: 1.125rem;
@@ -75,4 +78,21 @@ main blockquote cite {
 
 .bolden {
   font-weight: bold;
+}
+
+aside ul li {
+  font-size: 0.8rem;
+  list-style-type: circle;
+}
+
+main h2 ~ p {
+  font-style: italic;
+}
+
+main dl dt {
+  font-weight: bold;
+}
+
+main ol li {
+  list-style-type: lower-greek;
 }
