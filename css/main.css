@@ -29,7 +29,7 @@ footer a {
 }
 
 footer {
-    font-size: 0.8rem;
+  font-size: .8rem;
 }
 
 footer a:hover {
@@ -40,18 +40,19 @@ footer a:hover {
 body {
   line-height: 1.5;
 }
+
 nav ol li {
   font-family: "PT Sans", sans-serif;
   font-size: 1.125rem;
   list-style-type: none;
 }
 
-nav ol li a {
+a {
   color: #8f2440;
   text-decoration: none;
 }
 
-nav ol li a:hover {
+a:hover {
   text-decoration: underline;
   color: #3f1622;
 }
@@ -59,7 +60,7 @@ nav ol li a:hover {
 figcaption {
   font-style: italic;
   text-align: center;
-  font-size: 0.8rem;
+  font-size: .8rem;
 }
 
 main blockquote {
@@ -73,7 +74,7 @@ main blockquote strong {
 }
 
 main blockquote cite {
-  font-size: 0.8rem;
+  font-size: .8rem;
 }
 
 .bolden {
@@ -81,7 +82,7 @@ main blockquote cite {
 }
 
 aside ul li {
-  font-size: 0.8rem;
+  font-size: .8rem;
   list-style-type: circle;
 }
 
