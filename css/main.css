@@ -5,9 +5,50 @@ font-family: 'PT Serif', serif;
 
 html {
   box-sizing: border-box;
-  font-family: "PT Sans", sans-serif;
+  font-family: "PT Serif", serif;
+  background-color: #c9b5ab;
 }
 
 *, *::before, *::after {
   box-sizing: inherit;
+}
+
+h1, h2 {
+  color: #3f1622;
+  font-family: "PT Sans", sans-serif;
+  font-size: 1.5rem;
+}
+
+img {
+  width: 100%;
+}
+
+footer a {
+  color: #8f2440;
+  text-decoration: none;
+}
+
+footer {
+    font-size: 1.125rem;
+}
+
+footer a:hover {
+  color: #3f1622;
+  text-decoration: underline;
+}
+
+nav ol li {
+  font-family: "PT Sans", sans-serif;
+  font-size: 1.125rem;
+  list-style-type: none;
+}
+
+nav ol li a {
+  color: #8f2440;
+  text-decoration: none;
+}
+
+nav ol li a:hover {
+  text-decoration: underline;
+  color: #3f1622;
 }
